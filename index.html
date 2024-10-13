@@ -5,14 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crack the Frontend Interview</title>
     <link rel="stylesheet" href="./style.css" />
-    <script src="./Day1.js"></script>
-    <script src="./Day2.js"></script>
-    <script src="./Day3.js"></script>
-    <script src="./Day4.js"></script>
-    <script src="./Day5.js"></script>
+    <script src="./Day1.js" defer></script>
+    <script src="./Day2.js" defer></script>
+    <script src="./Day3.js" defer></script>
+    <script src="./Day4.js" defer></script>
+    <script src="./Day5.js" defer></script>
+    <style>
+      div {
+        min-width: 100px;
+        min-height: 100px;
+        padding: 30px;
+        border: 1px solid black;
+      }
+    </style>
   </head>
   <body>
-    <input type="text" onkeyup="getDataOnEveryKeyStroke()" />
-    <input type="text" onkeyup="debounceSearch()" />
+    <!-- Debouncing -->
+    <!-- <input type="text" onkeyup="getDataOnEveryKeyStroke()" /> -->
+    <!-- <input type="text" onkeyup="debounceSearch()" /> -->
+    <!-- Event propagation -->
+    <div id="grandparent">
+      <div id="parent">
+        <div id="child"></div>
+      </div>
+    </div>
   </body>
 </html>
