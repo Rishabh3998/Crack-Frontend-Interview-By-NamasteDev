@@ -33,7 +33,7 @@
 // stops we don't want to call API again and again. That's why we use debouncing.
 
 // Throttling makes more sense if we are using infinite scroll kind of thing. When a user is resizing a browser.
-// At that time we can use throttling.
+// At that time we can use throttling. Shooting games also can be a good example.
 
 // addEventListener('resize', () ={
 //    trackResizeApi();
